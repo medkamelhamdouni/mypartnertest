@@ -1,12 +1,12 @@
-package com.mypartner.mypartner.gestiondestock.service;
+package com.mypartner.mypartner.article.service;
 
 
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.mypartner.mypartner.gestiondestock.model.Article;
-import com.mypartner.mypartner.gestiondestock.repository.ArticleRepository;
+import com.mypartner.mypartner.article.model.Article;
+import com.mypartner.mypartner.article.repository.ArticleRepository;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.mypartner.mypartner.gestiondestock.controller;
+package com.mypartner.mypartner.article.controller;
 
 
 
@@ -7,12 +7,13 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.mypartner.mypartner.gestiondestock.model.Article;
-import com.mypartner.mypartner.gestiondestock.service.ArticleService;
+import com.mypartner.mypartner.article.model.Article;
+import com.mypartner.mypartner.article.service.ArticleService;
 
 import java.util.List;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/articles")
 public class ArticleController {
 

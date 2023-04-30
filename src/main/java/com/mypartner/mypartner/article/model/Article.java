@@ -1,4 +1,4 @@
-package com.mypartner.mypartner.gestiondestock.model;
+package com.mypartner.mypartner.article.model;
 
 
 
