@@ -13,6 +13,8 @@ import com.mypartner.mypartner.fournisseur.service.FournisseurService;
 import java.util.List;
 
 @RestController
+@CrossOrigin
+
 @RequestMapping("/fournisseurs")
 public class FournisseurController {
 

@@ -3,6 +3,7 @@ package com.mypartner.mypartner.commande.controller;
 import java.util.List;
 
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -15,6 +16,8 @@ import com.mypartner.mypartner.commande.model.Commande;
 import com.mypartner.mypartner.commande.service.CommandeService;
 
 @RestController
+@CrossOrigin
+
 @RequestMapping("/commandes")
 public class CommandeController {
     private CommandeService commandeService;
